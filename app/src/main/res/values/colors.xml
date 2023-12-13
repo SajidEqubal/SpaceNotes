@@ -3,4 +3,11 @@
     <color name="main">#FDF1CA</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+
+    <color name="NotesColor1">#FFCC99</color>
+    <color name="NotesColor2">#FFE6B3</color>
+    <color name="NotesColor3">#FFD9E6</color>
+    <color name="NotesColor4">#CCFFCC</color>
+    <color name="NotesColor5">#E6CCFF</color>
+    <color name="NotesColor6">#CCFFFF</color>
 </resources>

@@ -6,13 +6,14 @@ import androidx.room.Database
 import androidx.room.Room
 import androidx.room.RoomDatabase
 import com.shadspace.spacenotes.model.Note
-import com.shadspace.utilities.DATABASE_NAME
+import com.shadspace.spacenotes.utilities.DATABASE_NAME
 
 
-@Database(entities = arrayOf(Note::class),version = 1, exportSchema = false)
+@Database(entities = [Note::class], version = 1, exportSchema = false)
+
 abstract class NoteDatabase : RoomDatabase() {
 
-    abstract fun getNoteDao() : NoteDao
+    abstract fun getNoteDao(): NoteDao
 
     companion object{
         @Volatile

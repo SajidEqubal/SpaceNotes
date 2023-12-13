@@ -13,7 +13,7 @@
         android:theme="@style/Theme.SpaceNotes"
         tools:targetApi="31">
         <activity
-            android:name="com.shadspace.AddNotes"
+            android:name=".AddNotes"
             android:exported="false" />
         <activity
             android:name=".Home"
