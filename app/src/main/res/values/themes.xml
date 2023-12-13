@@ -5,5 +5,11 @@
 
     <item name="colorPrimary">@color/main</item>
     <item name="android:statusBarColor" >@color/main</item>
+    <item name="android:queryBackground">@null</item>
+
 </style>
+    <!-- Change the query background to transparent or null to remove the underline -->
+    <style name="AppSearchViewStyle" parent="Widget.AppCompat.SearchView">
+        <item name="android:queryBackground">@null</item>
+    </style>
 </resources>

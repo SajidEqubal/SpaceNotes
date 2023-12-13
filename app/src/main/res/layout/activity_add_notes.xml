@@ -31,6 +31,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:padding="8dp"
+                android:scaleType="centerCrop"
                 android:layout_marginEnd="14dp"
                 android:src="@drawable/ic_done"/>
 
@@ -58,15 +59,16 @@
 
     <EditText
         android:id="@+id/edt_note"
-        android:layout_width="0dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_marginTop="26dp"
-        android:ems="10"
         android:gravity="top"
         android:background="@null"
         android:inputType="textPersonName"
         android:lineSpacingMultiplier="1.8"
-        android:hint="Title"
+        android:hint="Notes..."
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="@id/edt_title"
         app:layout_constraintStart_toStartOf="@id/edt_title"
