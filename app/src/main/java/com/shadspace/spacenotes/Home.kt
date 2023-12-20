@@ -105,6 +105,7 @@ class Home : AppCompatActivity(), NotesAdapter.NotesClickListener,
         val popup = PopupMenu(this, cardView)
         popup.setOnMenuItemClickListener(this@Home)
         popup.inflate(R.menu.pop_up_menu)
+        popup.show()
     }
 
 
